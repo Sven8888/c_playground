@@ -1,0 +1,25 @@
+# build artifacts
+*.o
+*.a
+*.so
+*.out
+*.exe
+*.gch
+*.dSYM/
+build/
+
+# cmake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+
+# editors/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# tools
+vgcore.*
+*.log
